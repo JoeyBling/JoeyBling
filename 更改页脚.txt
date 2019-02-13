@@ -1,0 +1,1 @@
+themes/yilia/layout/_partial/footer.ejs
