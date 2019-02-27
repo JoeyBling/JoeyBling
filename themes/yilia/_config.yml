@@ -3,8 +3,9 @@
 menu:
   主页: /
   Java: /tags/Java/
-  Linux: /tags/Linux
-  ELK日志分析: /tags/ELK日志分析
+  Linux: /tags/Linux/
+  ELK日志分析: /tags/ELK日志分析/
+  日记本: /tags/日记本/
 
 # SubNav
 subnav:

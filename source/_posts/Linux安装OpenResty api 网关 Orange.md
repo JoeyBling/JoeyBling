@@ -1,7 +1,8 @@
+---
 title: Linux安装OpenResty api 网关 Orange
+date: 2018-05-30 16:33
 tags: Linux
 description: Linux安装OpenResty api 网关 Orange
-date: 2018-06-05 15:57:03
 ---
 #### 1.安装openresty
 ```shell

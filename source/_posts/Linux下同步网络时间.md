@@ -1,8 +1,8 @@
 ---
 title: Linux下同步网络时间
+date: 2018-08-01 15:24
 tags: Linux
 description: Linux下同步网络时间
-date: 2018-08-11 01:17:15
 ---
 #### 一、安装ntp
 ```shell

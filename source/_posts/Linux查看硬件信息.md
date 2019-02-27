@@ -1,9 +1,10 @@
 ---
-title: Linux查看硬件信息
+title: "Linux查看硬件信息"
 date: 2018-03-17 16:06:43
 tags: Linux
 comments: true
-description: Linux查看硬件信息
+#top: 1
+description: "Linux查看硬件信息"
 ---
  ##### 系统
 
