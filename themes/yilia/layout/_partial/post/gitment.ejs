@@ -1,9 +1,13 @@
 <div id="gitment-ctn"></div> 
-<link rel="stylesheet" href="//imsun.github.io/gitment/style/default.css">
-<script src="//imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<!-- <link rel="stylesheet" href="//imsun.github.io/gitment/style/default.css"> -->
+<!-- <script src="//imsun.github.io/gitment/dist/gitment.browser.js"></script> -->
+<!-- 中文 -->
+<link rel="stylesheet" href="<%=config.root%>gitment/gitment.css">
+<script src="<%=config.root%>gitment/gitment.js"></script>
 <script>
+<!-- id: "<%= page.title %>" -->
 var gitment = new Gitment({
-  id: "<%=url%>",
+  id: "<%=page.date %>",
   owner: '<%=theme.gitment_owner%>',
   repo: '<%=theme.gitment_repo%>',
   oauth: {

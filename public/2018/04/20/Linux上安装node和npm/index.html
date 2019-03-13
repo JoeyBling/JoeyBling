@@ -17,7 +17,7 @@
 <meta property="og:description" content="Linux上安装node和npm">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="https://upload-images.jianshu.io/upload_images/2743275-497a8e6f4e7c11d2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
-<meta property="og:updated_time" content="2019-02-26T13:51:51.602Z">
+<meta property="og:updated_time" content="2019-03-12T01:33:31.424Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Linux上安装node和npm">
 <meta name="twitter:description" content="Linux上安装node和npm">
@@ -198,22 +198,29 @@
     </h1>
   
 
+
         
-        <a href="/2018/04/20/Linux上安装node和npm/" class="archive-article-date">
-  	<time datetime="2018-04-20T07:31:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-04-20</time>
+        
+        <!-- 不蒜子统计 -->
+        <span id="busuanzi_container_page_pv" style='display:none' class="archive-article-date">
+              <i class="icon-smile icon"></i> 阅读数：<span id="busuanzi_value_page_pv"></span>次
+        </span>
+
+<a href="/2018/04/20/Linux上安装node和npm/" class="archive-article-date">
+        <time datetime="2018-04-20T07:31:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-04-20</time>
 </a>
+
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>####一、下载Node</p>
-<p>  官网下载链接：<a href="https://nodejs.org/zh-cn/download/" target="_blank" rel="noopener">https://nodejs.org/zh-cn/download/</a><br><img src="https://upload-images.jianshu.io/upload_images/2743275-497a8e6f4e7c11d2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+        <h4 id="一、下载Node"><a href="#一、下载Node" class="headerlink" title="一、下载Node"></a>一、下载Node</h4><p>  官网下载链接：<a href="https://nodejs.org/zh-cn/download/" target="_blank" rel="noopener">https://nodejs.org/zh-cn/download/</a><br><img src="https://upload-images.jianshu.io/upload_images/2743275-497a8e6f4e7c11d2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
 <a id="more"></a>
 <p>解压目录<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"># yum install -y xz</span><br><span class="line"># xz -d node-v8.11.1-linux-x64.tar.xz</span><br><span class="line"># tar -xf node-v8.11.1-linux-x64.tar</span><br></pre></td></tr></table></figure></p>
 <p>这里想要全局使用npm 和 node,就需要做相关软链，如下！<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"># cd /usr/local/bin</span><br><span class="line"># ln -s /usr/local/src/node-v8.10.0-linux-x64/bin/npm</span><br><span class="line"># ln -s /usr/local/src/node-v8.10.0-linux-x64/bin/node</span><br></pre></td></tr></table></figure></p>
 <p>然后即可在任意位置执行 node  -v   npm  -v  查看相应的版本，则安装完成！</p>
-<p>####二、使用淘宝镜像<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># npm config get registry // https://registry.npmjs.org/</span><br><span class="line"># npm config set registry https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure></p>
+<h4 id="二、使用淘宝镜像"><a href="#二、使用淘宝镜像" class="headerlink" title="二、使用淘宝镜像"></a>二、使用淘宝镜像</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># npm config get registry // https://registry.npmjs.org/</span><br><span class="line"># npm config set registry https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure>
 
       
 
@@ -390,6 +397,17 @@
       	</div>
     </div>
   </div>
+  
+  	<!-- 不蒜子统计 -->
+	<span id="busuanzi_container_site_pv">
+		本站总访问量<span id="busuanzi_value_site_pv"></span>次
+	</span>
+        <span class="post-meta-divider">|</span>
+  	<span id="busuanzi_container_site_uv" style='display:none'>
+  		本站访客数<span id="busuanzi_value_site_uv"></span>人
+  	</span>
+  	<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  
 </footer>
 
     </div>
@@ -401,7 +419,7 @@
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
-		open_in_new: false,
+		open_in_new: true,
 		toc_hide_index: true,
 		root: "/",
 		innerArchive: true,
@@ -475,11 +493,11 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">Java</a>
+                <a href="javascript:void(0)" class="js-tag color5">ELK日志分析平台</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">记录生活点滴</a>
+                <a href="javascript:void(0)" class="js-tag color5">Java</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -487,7 +505,7 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">ELK日志分析平台</a>
+                <a href="javascript:void(0)" class="js-tag color2">记录生活点滴</a>
               </li>
             
             <div class="clearfix"></div>
@@ -544,6 +562,10 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
           
             <li class="search-li">
               <a href="https://gitee.com/zhousiwei" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>码云</a>
+            </li>
+          
+            <li class="search-li">
+              <a href="https://www.jianshu.com/u/02cbf31a043a" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>简书</a>
             </li>
           
         </ul>

@@ -26,7 +26,7 @@
 <meta property="og:image" content="https://upload-images.jianshu.io/upload_images/2743275-8969029b19517563.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 <meta property="og:image" content="https://upload-images.jianshu.io/upload_images/2743275-fc6779f38f7ccb43.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 <meta property="og:image" content="https://upload-images.jianshu.io/upload_images/2743275-40d4fd8413ae4065.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
-<meta property="og:updated_time" content="2018-06-05T11:40:32.129Z">
+<meta property="og:updated_time" content="2019-03-12T01:34:39.678Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Linux 卸载分区">
 <meta name="twitter:description" content="Linux 卸载分区">
@@ -207,43 +207,51 @@
     </h1>
   
 
+
         
-        <a href="/2018/04/17/Linux-卸载分区/" class="archive-article-date">
-  	<time datetime="2018-04-17T08:01:30.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-04-17</time>
+        
+        <!-- 不蒜子统计 -->
+        <span id="busuanzi_container_page_pv" style='display:none' class="archive-article-date">
+              <i class="icon-smile icon"></i> 阅读数：<span id="busuanzi_value_page_pv"></span>次
+        </span>
+
+<a href="/2018/04/17/Linux-卸载分区/" class="archive-article-date">
+        <time datetime="2018-04-17T08:01:30.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-04-17</time>
 </a>
+
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
         <h5 id="注意，卸载分区会格式化分区内所有的数据，请谨慎操作或进行数据备份"><a href="#注意，卸载分区会格式化分区内所有的数据，请谨慎操作或进行数据备份" class="headerlink" title="注意，卸载分区会格式化分区内所有的数据，请谨慎操作或进行数据备份"></a>注意，卸载分区会格式化分区内所有的数据，请谨慎操作或进行数据备份</h5><pre><code># df -hT
-</code></pre><p><img src="https://upload-images.jianshu.io/upload_images/2743275-d7fb0c77ed1e94d0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>
+</code></pre><p><img src="https://upload-images.jianshu.io/upload_images/2743275-d7fb0c77ed1e94d0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
 <a id="more"></a>    
 <pre><code>准备卸载/dev/sda6这个分区
 # umount /data2    
 重新检查一下 
 # df -hT
-</code></pre><p><img src="https://upload-images.jianshu.io/upload_images/2743275-2af8caea924f6612.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>
+</code></pre><p><img src="https://upload-images.jianshu.io/upload_images/2743275-2af8caea924f6612.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
 <pre><code># fdisk -l
 发现待分区的磁盘 /dev/sda
-</code></pre><p><img src="https://upload-images.jianshu.io/upload_images/2743275-c079a22b84557f0e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>
+</code></pre><p><img src="https://upload-images.jianshu.io/upload_images/2743275-c079a22b84557f0e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
 <pre><code>对该磁盘进行卸载分区，输入m并回车
 # fdisk /dev/sda
 # m 输入帮助
 # p 打印分区表
-</code></pre><p><img src="https://upload-images.jianshu.io/upload_images/2743275-85bcd2afce1808d7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"><br><img src="https://upload-images.jianshu.io/upload_images/2743275-95439e347a38fcf6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>
-<p>卸载/dev/sda6分区<br>此时注意/dev/sda6是刚刚卸载了/data2的分区名<br><img src="https://upload-images.jianshu.io/upload_images/2743275-d7fb0c77ed1e94d0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>
+</code></pre><p><img src="https://upload-images.jianshu.io/upload_images/2743275-85bcd2afce1808d7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""><br><img src="https://upload-images.jianshu.io/upload_images/2743275-95439e347a38fcf6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+<p>卸载/dev/sda6分区<br>此时注意/dev/sda6是刚刚卸载了/data2的分区名<br><img src="https://upload-images.jianshu.io/upload_images/2743275-d7fb0c77ed1e94d0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
 <pre><code># d 删除一个分区
 # 6  删除第六个分区
-</code></pre><p><img src="https://upload-images.jianshu.io/upload_images/2743275-b7cbc678d5616a01.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>
+</code></pre><p><img src="https://upload-images.jianshu.io/upload_images/2743275-b7cbc678d5616a01.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
 <pre><code>重新打印分区表发现已卸载/dev/sda6分区
 # p 
-</code></pre><p><img src="https://upload-images.jianshu.io/upload_images/2743275-8969029b19517563.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>
+</code></pre><p><img src="https://upload-images.jianshu.io/upload_images/2743275-8969029b19517563.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
 <pre><code># w   将表写入磁盘并退出
 再检查一遍
 # fdisk /dev/sda
 # p 打印分区表 
-</code></pre><p><img src="https://upload-images.jianshu.io/upload_images/2743275-fc6779f38f7ccb43.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"><br><img src="https://upload-images.jianshu.io/upload_images/2743275-40d4fd8413ae4065.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>
+</code></pre><p><img src="https://upload-images.jianshu.io/upload_images/2743275-fc6779f38f7ccb43.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""><br><img src="https://upload-images.jianshu.io/upload_images/2743275-40d4fd8413ae4065.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
 
       
 
@@ -420,6 +428,17 @@
       	</div>
     </div>
   </div>
+  
+  	<!-- 不蒜子统计 -->
+	<span id="busuanzi_container_site_pv">
+		本站总访问量<span id="busuanzi_value_site_pv"></span>次
+	</span>
+        <span class="post-meta-divider">|</span>
+  	<span id="busuanzi_container_site_uv" style='display:none'>
+  		本站访客数<span id="busuanzi_value_site_uv"></span>人
+  	</span>
+  	<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  
 </footer>
 
     </div>
@@ -431,7 +450,7 @@
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
-		open_in_new: false,
+		open_in_new: true,
 		toc_hide_index: true,
 		root: "/",
 		innerArchive: true,
@@ -505,11 +524,11 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">Java</a>
+                <a href="javascript:void(0)" class="js-tag color5">ELK日志分析平台</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">记录生活点滴</a>
+                <a href="javascript:void(0)" class="js-tag color5">Java</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -517,7 +536,7 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">ELK日志分析平台</a>
+                <a href="javascript:void(0)" class="js-tag color2">记录生活点滴</a>
               </li>
             
             <div class="clearfix"></div>
@@ -574,6 +593,10 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
           
             <li class="search-li">
               <a href="https://gitee.com/zhousiwei" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>码云</a>
+            </li>
+          
+            <li class="search-li">
+              <a href="https://www.jianshu.com/u/02cbf31a043a" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>简书</a>
             </li>
           
         </ul>

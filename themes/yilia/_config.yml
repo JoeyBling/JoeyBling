@@ -43,7 +43,7 @@ show_all_link: '展开全文'
 # 数学公式
 mathjax: false
 # 是否在新窗口打开链接
-open_in_new: false
+open_in_new: true
 
 # 打赏
 # 打赏type设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
@@ -96,14 +96,20 @@ disqus: false
 
 #5、Gitment
 gitment_owner: false      #你的 GitHub ID
-gitment_repo: ''          #存储评论的 repo
+#gitment_owner: JoeyBling      #你的 GitHub ID
+gitment_repo: 'JoeyBling.github.io'          #存储评论的 repo
 gitment_oauth:
-  client_id: ''           #client ID
-  client_secret: ''       #client secret
+  client_id: '084c0dc4233f68ab3ff1'           #client ID
+  client_secret: '39e1e3bf79509ad8670c81f57d3af0b4bb33255e'       #client secret
+
+#6、是否开启访问量统计功能(不蒜子)
+busuanzi:
+ enable: true
 
 # 样式定制 - 一般不需要修改，除非有很强的定制欲望…
 style:
   # 头像上面的背景颜色
+  # header: '#D3D1DC'
   header: '#4d4d4d'
   # 右滑板块背景
   slider: 'linear-gradient(200deg,#a0cfe4,#e8c37e)'
@@ -126,5 +132,6 @@ smart_menu:
 friends:
   GitHub: https://github.com/JoeyBling
   码云: https://gitee.com/zhousiwei
+  简书: https://www.jianshu.com/u/02cbf31a043a
 
 aboutme: 联系QQ:2434387555<br><br>很惭愧<br><br>只做了一点微小的工作<br>谢谢大家

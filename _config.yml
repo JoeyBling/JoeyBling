@@ -4,7 +4,7 @@
 
 # Site
 title: 試毅-思伟
-subtitle: 
+#subtitle: Writing code is keep my heart beating only reason.
 description: 試毅-思伟_技术博客
 author: 試毅-思伟
 language: zh-Hans
@@ -95,7 +95,7 @@ jsonContent:
       slug: false
       updated: false
       comments: false
-      link: false
+      link: true
       permalink: false
       excerpt: false
       categories: false
