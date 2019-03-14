@@ -95,8 +95,8 @@ changyan_conf: false
 disqus: false
 
 #5、Gitment
-gitment_owner: false      #你的 GitHub ID
-#gitment_owner: JoeyBling      #你的 GitHub ID
+#gitment_owner: false      #你的 GitHub ID
+gitment_owner: JoeyBling      #你的 GitHub ID
 gitment_repo: 'JoeyBling.github.io'          #存储评论的 repo
 gitment_oauth:
   client_id: '084c0dc4233f68ab3ff1'           #client ID

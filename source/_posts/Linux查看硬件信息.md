@@ -3,10 +3,10 @@ title: "Linux查看硬件信息"
 date: 2018-03-17 16:06:43
 tags: Linux
 comments: true
-#top: 1
+top: 1
 description: "Linux查看硬件信息"
 ---
- ##### 系统
+##### 系统
 
 	# uname -a               # 查看内核/操作系统/CPU信息
 	# head -n 1 /etc/issue   # 查看操作系统版本
@@ -17,7 +17,7 @@ description: "Linux查看硬件信息"
 	# lsmod                  # 列出加载的内核模块
 	# env                    # 查看环境变量  
 <!--more-->
- ##### 资源
+##### 资源
 
 	# free -m                # 查看内存使用量和交换区使用量
 	# df -h                  # 查看各分区使用情况
@@ -27,7 +27,7 @@ description: "Linux查看硬件信息"
 	# uptime                 # 查看系统运行时间、用户数、负载
 	# cat /proc/loadavg      # 查看系统负载
 
-  ##### 磁盘和分区  
+##### 磁盘和分区  
 	# mount | column -t      # 查看挂接的分区状态
 	# fdisk -l               # 查看所有分区
 	# swapon -s              # 查看所有交换分区
@@ -35,7 +35,7 @@ description: "Linux查看硬件信息"
 	# dmesg | grep IDE       # 查看启动时IDE设备检测状况
 
 
-  #####   网络
+#####   网络
 	# ifconfig               # 查看所有网络接口的属性
 	# iptables -L            # 查看防火墙设置
 	# route -n               # 查看路由表
@@ -43,26 +43,26 @@ description: "Linux查看硬件信息"
 	# netstat -antp          # 查看所有已经建立的连接
 	# netstat -s             # 查看网络统计信息
 
-  #####   进程
-  	# ps -ef                 # 查看所有进程
+#####   进程
+	# ps -ef                 # 查看所有进程
 	# top                    # 实时显示进程状态
 
-  #####   用户  
+#####   用户  
 	# w                      # 查看活动用户
 	# id <用户名>            # 查看指定用户信息
 	# last                   # 查看用户登录日志
 	# cut -d: -f1 /etc/passwd   # 查看系统所有用户
 	# cut -d: -f1 /etc/group    # 查看系统所有组
 	# crontab -l             # 查看当前用户的计划任务  
-  #####   服务  
+#####   服务  
 	# chkconfig --list       # 列出所有系统服务
 	# chkconfig --list | grep on    # 列出所有启动的系统服务  
-  #####   程序  
+#####   程序  
 	# rpm -qa                # 查看所有安装的软件包  
-  #####   查看网卡型号  
-	#   lspci | grep Ethernet  
-  #####   查看内存和cpu最直接最常用的命令
-  	# free
+#####   查看网卡型号  
+	# lspci | grep Ethernet  
+#####   查看内存和cpu最直接最常用的命令
+	# free
 	# cat /proc/cpuinfo   
-  #####   查看硬盘信息（查看硬盘型号和硬盘序列号）  
+#####	查看硬盘信息（查看硬盘型号和硬盘序列号）  
 	# df -h  

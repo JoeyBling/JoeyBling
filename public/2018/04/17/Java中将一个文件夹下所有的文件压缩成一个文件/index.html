@@ -425,6 +425,27 @@ private static void zip(File[] files, String baseFolder, ZipOutputStream zos)
   
 
   
+  <div id="gitment-ctn"></div> 
+<!-- <link rel="stylesheet" href="//imsun.github.io/gitment/style/default.css"> -->
+<!-- <script src="//imsun.github.io/gitment/dist/gitment.browser.js"></script> -->
+<!-- 中文 -->
+<link rel="stylesheet" href="/gitment/gitment.css">
+<script src="/gitment/gitment.js"></script>
+<script>
+<!-- id: "Java中将一个文件夹下所有的文件压缩成一个文件" -->
+var gitment = new Gitment({
+  id: "Tue Apr 17 2018 12:22:13 GMT+0800",
+  owner: 'JoeyBling',
+  repo: 'JoeyBling.github.io',
+  oauth: {
+    client_id: '084c0dc4233f68ab3ff1',
+    client_secret: '39e1e3bf79509ad8670c81f57d3af0b4bb33255e',
+  },
+})
+gitment.render('gitment-ctn')
+</script>
+
+  
 
 
           </div>
@@ -443,10 +464,10 @@ private static void zip(File[] files, String baseFolder, ZipOutputStream zos)
   </div>
   
   	<!-- 不蒜子统计 -->
-	<span id="busuanzi_container_site_pv">
+	<span id="busuanzi_container_site_pv" style='display:none'>
 		本站总访问量<span id="busuanzi_value_site_pv"></span>次
 	</span>
-        <span class="post-meta-divider">|</span>
+        <span class="post-meta-divider" >|</span>
   	<span id="busuanzi_container_site_uv" style='display:none'>
   		本站访客数<span id="busuanzi_value_site_uv"></span>人
   	</span>

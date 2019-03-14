@@ -377,6 +377,27 @@
   
 
   
+  <div id="gitment-ctn"></div> 
+<!-- <link rel="stylesheet" href="//imsun.github.io/gitment/style/default.css"> -->
+<!-- <script src="//imsun.github.io/gitment/dist/gitment.browser.js"></script> -->
+<!-- 中文 -->
+<link rel="stylesheet" href="/gitment/gitment.css">
+<script src="/gitment/gitment.js"></script>
+<script>
+<!-- id: "Linux临时和永久关闭selinux" -->
+var gitment = new Gitment({
+  id: "Thu Aug 02 2018 14:26:00 GMT+0800",
+  owner: 'JoeyBling',
+  repo: 'JoeyBling.github.io',
+  oauth: {
+    client_id: '084c0dc4233f68ab3ff1',
+    client_secret: '39e1e3bf79509ad8670c81f57d3af0b4bb33255e',
+  },
+})
+gitment.render('gitment-ctn')
+</script>
+
+  
 
 
           </div>
@@ -395,10 +416,10 @@
   </div>
   
   	<!-- 不蒜子统计 -->
-	<span id="busuanzi_container_site_pv">
+	<span id="busuanzi_container_site_pv" style='display:none'>
 		本站总访问量<span id="busuanzi_value_site_pv"></span>次
 	</span>
-        <span class="post-meta-divider">|</span>
+        <span class="post-meta-divider" >|</span>
   	<span id="busuanzi_container_site_uv" style='display:none'>
   		本站访客数<span id="busuanzi_value_site_uv"></span>人
   	</span>

@@ -2,6 +2,7 @@
 title: Hexo博客添加访问量统计
 date: 2019.03.13 11:51
 tags: 日记本
+#top: 1
 description: Hexo博客添加访问量统计
 ---
 ##### Tips:前导必备
