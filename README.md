@@ -5,7 +5,6 @@
 
 ---
 ![smile](./pic/pusheencode.gif)
-<img align="right" alt="GIF" src="https://raw.githubusercontent.com/joeybling/joeybling/master/pic/pusheencode.gif" />
 
 ### I'm Siwei Zhou
 
@@ -31,4 +30,4 @@
 - [CSDN](https://zhousiwei.blog.csdn.net/)
 - [微博](http://weibo.com/jayinfo)
 
-*** I love to make friends. so if you want to say hi, I'll be happy to meet you more!😊 ***
+> ***I love to make friends. so if you want to say hi, I'll be happy to meet you more!😊***
