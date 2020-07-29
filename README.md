@@ -1,19 +1,34 @@
-# 試毅-思伟的技术博客 [https://joeybling.github.io/](https://joeybling.github.io/)
+## Hello World 👋
+[![博客搭建交流群](https://img.shields.io/badge/博客搭建QQ群-422625065-red.svg "博客搭建交流群")](https://jq.qq.com/?_wv=1027&k=58Ypj9z "博客搭建交流群")
+[![webkettle交流群](https://img.shields.io/badge/webkettle交流群-487063343-red.svg "webkettle交流群")](https://jq.qq.com/?_wv=1027&k=55kiWBY "webkettle交流群")
+[![Mail Badge](https://img.shields.io/badge/-joeysiwei@gmail.com-c14438?style=flat&logo=Gmail&logoColor=white&link=mailto:joeysiwei@gmail.com)](mailto:joeysiwei@gmail.com)
 
-&#160;&#160;&#160;&#160;欢迎来到**試毅-思伟**的技术博客，这里将深入探讨相关技术，包括行业动态，架构设计，设计模式，框架使用等。
+---
+![smile](./pic/pusheencode.gif)
+<img align="right" alt="GIF" src="https://raw.githubusercontent.com/joeybling/joeybling/master/pic/pusheencode.gif" />
 
-**博客将不定期更新，请小伙伴们随时关注哦！**
+### I'm Siwei Zhou
 
-## [关于我](https://joeybling.github.io/)
-&#160;&#160;&#160;&#160;試毅-思伟，三年Java EE 从业经验。
+- 🌱 Currently working in Hangzhou, China
+- 💬 Ask me about Java, TypeScript and my projects on [2434387555@qq.com](mailto:2434387555@qq.com)
+- ⭐ You may like [webkettle](https://github.com/JoeyBling/webkettle) 、[hexo-theme-yilia-plus](https://github.com/JoeyBling/hexo-theme-yilia-plus) 、or [bootplus](https://github.com/JoeyBling/bootplus)
+- ⚡ Fun fact: Data Analysis📊
 
-## [归档文章](https://joeybling.github.io/)
+### 开源项目
+- [基于SpringBoot + Shiro + MyBatisPlus的权限管理框架](https://github.com/JoeyBling/bootplus)
+- [一个简洁优雅的hexo主题](https://github.com/JoeyBling/hexo-theme-yilia-plus)
+- [hexo-theme-yilia-plus配置Demo](https://github.com/JoeyBling/yilia-plus-demo)
+- [自动为hexo中的图片映射绝对路径](https://github.com/JoeyBling/hexo-filter-image)
+- [✏️✏️Java软件工程师简历](https://github.com/JoeyBling/cv)
+- [一款简洁优雅的VuePress主题](https://github.com/JoeyBling/vuepress-theme-yilia-plus)
+- [VuePress集成Live2D看板娘](https://github.com/JoeyBling/vuepress-plugin-helper-live2d)
+- [VuePress集成Gitalk](https://github.com/JoeyBling/vuepress-plugin-mygitalk)
+- [不蒜子访问量统计功能](https://github.com/JoeyBling/busuanzi.pure.js)
+- [在`npm install`后提示用户消息或捐赠](https://github.com/JoeyBling/openteam-postinstall)
 
-1. [Java](https://joeybling.github.io/tags/Java/)
-2. [Linux](https://joeybling.github.io/tags/Linux/)
-3. [ELK日志分析](https://joeybling.github.io/tags/ELK%E6%97%A5%E5%BF%97%E5%88%86%E6%9E%90/)
+### 关于我
+- [技术笔记](https://zhousiwei.gitee.io/ibooks/)
+- [CSDN](https://zhousiwei.blog.csdn.net/)
+- [微博](http://weibo.com/jayinfo)
 
-## 捐赠
-&#160;&#160;&#160;&#160;**如果感觉对您有帮助，请作者喝杯咖啡吧，请注明您的名字或者昵称，方便作者感谢o(*￣︶￣*)o**
-![](https://images.gitee.com/uploads/images/2019/0312/160046_accc466d_1251167.jpeg "")
-![](https://images.gitee.com/uploads/images/2019/0312/160037_f7a4dd63_1251167.png)
+*** I love to make friends. so if you want to say hi, I'll be happy to meet you more!😊 ***
