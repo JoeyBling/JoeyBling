@@ -16,6 +16,12 @@
 
 ### 🛠 技术栈 | Tech Stack
 
+- 💻 &#160; Java | Linux | 聚合支付
+- 🌐 &#160; HTML/CSS | JavaScript | Bootstrap | Node.js | VueJS
+- 🛢 &#160; MySQL | MongoDB | Oracle
+- 🔧 &#160; Git | Markdown
+
+<h3>🛠 Tech Stack</h3>
 
 - 💻 &nbsp; Python | Java | C++ | R (Statistics) | MATLAB
 - 🌐 &nbsp; HTML | CSS | JavaScript | Bootstrap | Node.js | ReactJS
@@ -23,10 +29,7 @@
 - 🔧 &nbsp; Git | Markdown | Selenium | Tidyverse
 - 🖥 &nbsp; Illustrator| Photoshop | InDesign
 
-- 💻 &#160; Java | Linux | 聚合支付
-- 🌐 &#160; HTML/CSS | JavaScript | Bootstrap | Node.js | VueJS
-- 🛢 &#160; MySQL | MongoDB | Oracle
-- 🔧 &#160; Git | Markdown
+<br/>
 
 ### 开源项目
 - [基于SpringBoot + Shiro + MyBatisPlus的权限管理框架](https://github.com/JoeyBling/bootplus)
@@ -46,3 +49,5 @@
 - [微博](http://weibo.com/jayinfo)
 
 > ***I love to make friends. so if you want to say hi, I'll be happy to meet you more!😊***
+
+⭐️ From [JoeyBling](https://github.com/JoeyBling)
