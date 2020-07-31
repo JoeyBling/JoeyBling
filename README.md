@@ -14,6 +14,13 @@
 - ⭐ You may like [webkettle](https://github.com/JoeyBling/webkettle) 、[hexo-theme-yilia-plus](https://github.com/JoeyBling/hexo-theme-yilia-plus) 、or [bootplus](https://github.com/JoeyBling/bootplus)
 - ⚡ Fun fact: Data Analysis📊
 
+### 🛠 技术栈 | Tech Stack
+
+- 💻 &#160; Java | Linux | 聚合支付
+- 🌐 &#160; HTML/CSS | JavaScript | Bootstrap | Node.js | VueJS
+- 🛢 &#160; MySQL | MongoDB | Oracle
+- 🔧 &#160; Git | Markdown | 
+
 ### 开源项目
 - [基于SpringBoot + Shiro + MyBatisPlus的权限管理框架](https://github.com/JoeyBling/bootplus)
 - [一个简洁优雅的hexo主题](https://github.com/JoeyBling/hexo-theme-yilia-plus)
