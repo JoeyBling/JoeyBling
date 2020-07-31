@@ -16,10 +16,17 @@
 
 ### 🛠 技术栈 | Tech Stack
 
+
+- 💻 &nbsp; Python | Java | C++ | R (Statistics) | MATLAB
+- 🌐 &nbsp; HTML | CSS | JavaScript | Bootstrap | Node.js | ReactJS
+- 🛢 &nbsp; MySQL | MongoDB
+- 🔧 &nbsp; Git | Markdown | Selenium | Tidyverse
+- 🖥 &nbsp; Illustrator| Photoshop | InDesign
+
 - 💻 &#160; Java | Linux | 聚合支付
 - 🌐 &#160; HTML/CSS | JavaScript | Bootstrap | Node.js | VueJS
 - 🛢 &#160; MySQL | MongoDB | Oracle
-- 🔧 &#160; Git | Markdown | 
+- 🔧 &#160; Git | Markdown
 
 ### 开源项目
 - [基于SpringBoot + Shiro + MyBatisPlus的权限管理框架](https://github.com/JoeyBling/bootplus)
